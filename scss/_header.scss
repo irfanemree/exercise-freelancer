@@ -1,0 +1,23 @@
+@use 'variables';
+#header{
+    &__home{
+        background: variables.$bg-image no-repeat center right/cover;
+        height: 100vh;
+        color: #fff;
+
+        .header-content{
+            text-align: center;
+            padding-top:30% ;
+
+        }
+
+        h1{
+            font-size: 4rem;
+            line-height: 1.2;
+        }
+
+        .typewrite{
+            display: block;
+        }
+    }
+}

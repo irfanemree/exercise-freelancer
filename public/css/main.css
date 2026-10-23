@@ -92,8 +92,21 @@ img {
   width: 100%;
 }
 
-body {
-  background-color: yellow;
+#header__home {
+  background: url("../img/bg.jpeg") no-repeat center right/cover;
+  height: 100vh;
+  color: #fff;
+}
+#header__home .header-content {
+  text-align: center;
+  padding-top: 30%;
+}
+#header__home h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+#header__home .typewrite {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
